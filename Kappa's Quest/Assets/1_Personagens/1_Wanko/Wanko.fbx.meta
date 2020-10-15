@@ -1,0 +1,735 @@
+fileFormatVersion: 2
+guid: b41a4ac28861b344dbf74def24f43b85
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 6982508393746846321
+    second: Armature|Ataque
+  - first:
+      74: 421213749917768568
+    second: Armature|Defesa
+  - first:
+      74: 9141822264225573257
+    second: Armature|Defesa Constante
+  - first:
+      74: -1027407857606824838
+    second: Armature|Defesa Impacto
+  - first:
+      74: -7549632376655456097
+    second: Armature|Defesa Saida
+  - first:
+      74: -8945691123924629249
+    second: Armature|Idle
+  - first:
+      74: -3639635062991920298
+    second: Armature|Morte
+  - first:
+      74: 5508062484833401239
+    second: Armature|PoseLib
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Ataque
+      takeName: Armature|Ataque
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Defesa
+      takeName: Armature|Defesa
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Defesa Constante
+      takeName: Armature|Defesa Constante
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Defesa Impacto
+      takeName: Armature|Defesa Impacto
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Defesa Saida
+      takeName: Armature|Defesa Saida
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Morte
+      takeName: Armature|Morte
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|PoseLib
+      takeName: Armature|PoseLib
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Neko(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Neko(Clone)
+      position: {x: 0.000100967474, y: 0.0036916137, z: -0.00050604343}
+      rotation: {x: -0.7071068, y: 0, z: 8.659561e-17, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Mestre
+      parentName: Armature
+      position: {x: -0.000025611742, y: -0.0002974663, z: 0.00006889683}
+      rotation: {x: 0.000009690643, y: -0.008059411, z: 0.9999559, w: -0.004823011}
+      scale: {x: 0.99985933, y: 1.0000005, z: 0.9996055}
+    - name: MestreCostas
+      parentName: Mestre
+      position: {x: 0.0000037758189, y: 0.0006679499, z: 0.008214214}
+      rotation: {x: -0.00019489521, y: 0.008060484, z: -0.99995595, w: -0.0048132776}
+      scale: {x: 1.0001599, y: 1.0000143, z: 1.0004878}
+    - name: Virilha
+      parentName: MestreCostas
+      position: {x: 0.00003435567, y: -1.4457327e-10, z: -0.000000013534392}
+      rotation: {x: 0.401885, y: -0.5819096, z: 0.40181404, w: -0.5817346}
+      scale: {x: 0.99998367, y: 1.0000176, z: 1.0000001}
+    - name: Coxa.l
+      parentName: Virilha
+      position: {x: -0.00031674403, y: 0.0005383989, z: -0.0011420316}
+      rotation: {x: -0.013059301, y: 0.0031887884, z: -0.16761406, w: 0.98576105}
+      scale: {x: 1.0001333, y: 0.9998643, z: 1.0000352}
+    - name: Perna.l
+      parentName: Coxa.l
+      position: {x: -2.3283064e-12, y: 0.004334845, z: 3.7252902e-11}
+      rotation: {x: 0.027733993, y: -0.70805496, z: 0.032713946, w: 0.7048539}
+      scale: {x: 0.9999978, y: 1.0000254, z: 0.999894}
+    - name: Perna.l_end
+      parentName: Perna.l
+      position: {x: -0, y: 0.0035791495, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coxa.r
+      parentName: Virilha
+      position: {x: -0.0003166206, y: 0.00053861813, z: 0.0011253923}
+      rotation: {x: 0.16761388, y: 0.98576117, z: 0.013054684, w: 0.0032077432}
+      scale: {x: 1.0001326, y: 0.99988353, z: 0.99999714}
+    - name: Perna.r
+      parentName: Coxa.r
+      position: {x: 3.0500813e-10, y: 0.0043348693, z: 5.122274e-11}
+      rotation: {x: -0.027736329, y: -0.7080478, z: 0.032711573, w: -0.7048609}
+      scale: {x: 0.99999154, y: 1.0000235, z: 0.9999377}
+    - name: Perna.r_end
+      parentName: Perna.r
+      position: {x: -0, y: 0.0035791495, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Roupa.l
+      parentName: Virilha
+      position: {x: 0.00021496112, y: 0.000078116485, z: -0.002949154}
+      rotation: {x: -0.1546273, y: 0.0054277773, z: -0.16690655, w: 0.97375727}
+      scale: {x: 1.0000753, y: 0.99992573, z: 1.0000008}
+    - name: Roupa.l_end
+      parentName: Roupa.l
+      position: {x: -0, y: 0.0018174867, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Saia.l
+      parentName: Virilha
+      position: {x: -0.0001410947, y: 0.00016567236, z: -0.0021604905}
+      rotation: {x: -0.14434563, y: 0.0033989544, z: -0.16849232, w: 0.97507083}
+      scale: {x: 1.000076, y: 0.99992776, z: 0.9999976}
+    - name: Saia2.l
+      parentName: Saia.l
+      position: {x: -1.8626451e-11, y: 0.001751867, z: 2.6077032e-10}
+      rotation: {x: -0.01691818, y: -0.68988925, z: 0.008461482, w: 0.72366774}
+      scale: {x: 0.99999374, y: 1.0000085, z: 1.0000043}
+    - name: Saia2.l_end
+      parentName: Saia2.l
+      position: {x: -0, y: 0.0011553887, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RoupaT
+      parentName: Virilha
+      position: {x: -0.0022770993, y: 0.00085237913, z: 0.000005154118}
+      rotation: {x: 0.0014115273, y: -0.004141539, z: -0.03099985, w: 0.9995098}
+      scale: {x: 1.0000215, y: 0.9999816, z: 1.0000015}
+    - name: RoupaT_end
+      parentName: RoupaT
+      position: {x: -0, y: 0.001817487, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SaiaT
+      parentName: Virilha
+      position: {x: -0.0017891048, y: 0.000829635, z: -0.00003625016}
+      rotation: {x: -0.0018141712, y: -0.0066148327, z: -0.041201312, w: 0.9991273}
+      scale: {x: 1.0000207, y: 0.9999824, z: 1.0000019}
+    - name: Saia2T
+      parentName: SaiaT
+      position: {x: -2.2351741e-10, y: 0.0017519351, z: -1.6007107e-11}
+      rotation: {x: 0.010930915, y: -0.686804, z: 0.015434395, w: 0.7265966}
+      scale: {x: 0.9999988, y: 1.0000079, z: 0.99999505}
+    - name: Saia2T_end
+      parentName: Saia2T
+      position: {x: -0, y: 0.0011553891, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Saia.r
+      parentName: Virilha
+      position: {x: -0.00015225567, y: 0.00021414681, z: 0.0017097514}
+      rotation: {x: -0.16848981, y: -0.97507536, z: -0.14431755, w: -0.0034135277}
+      scale: {x: 1.0001001, y: 0.99989825, z: 1.0000048}
+    - name: Saia2.r
+      parentName: Saia.r
+      position: {x: -7.4505804e-11, y: 0.0017519711, z: -5.2154064e-10}
+      rotation: {x: -0.016916227, y: 0.6898752, z: -0.008467188, w: 0.7236811}
+      scale: {x: 0.99999714, y: 1.0000094, z: 0.99999774}
+    - name: Saia2.r_end
+      parentName: Saia2.r
+      position: {x: -0, y: 0.0011553887, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Roupa.r
+      parentName: Virilha
+      position: {x: -0.00015613869, y: -0.00016369249, z: 0.0025239533}
+      rotation: {x: -0.16690396, y: -0.97376263, z: -0.1545961, w: -0.005441099}
+      scale: {x: 1.000092, y: 0.9998941, z: 1.0000172}
+    - name: Roupa.r_end
+      parentName: Roupa.r
+      position: {x: -0, y: 0.0018174867, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Barriga
+      parentName: MestreCostas
+      position: {x: 0.00003435567, y: -1.4457327e-10, z: -0.000000013534392}
+      rotation: {x: 0.7435287, y: 0.00008714573, z: -0.000097032986, w: 0.66870415}
+      scale: {x: 1, y: 1.0000051, z: 0.99999493}
+    - name: Peito
+      parentName: Barriga
+      position: {x: -0, y: 0.0025218937, z: 1.8626451e-11}
+      rotation: {x: -0.18778472, y: -0.000000056825215, z: 0.000000023435854, w: 0.9822102}
+      scale: {x: 1, y: 0.99996066, z: 1.000039}
+    - name: Pescoco
+      parentName: Peito
+      position: {x: -4.6566126e-11, y: 0.0023802174, z: 5.5879353e-11}
+      rotation: {x: 0.1355679, y: 0.00000012867, z: -0.0000000016831332, w: 0.99076813}
+      scale: {x: 1.0000019, y: 0.9999643, z: 1.0000342}
+    - name: Cabeca
+      parentName: Pescoco
+      position: {x: 3.7252902e-11, y: 0.00082094443, z: -3.07773e-11}
+      rotation: {x: -0.000000059604623, y: -0.00000009086144, z: 0.0000000029469012,
+        w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 0.9999993}
+    - name: Cabeca_end
+      parentName: Cabeca
+      position: {x: -0, y: 0.002308173, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ombro.l
+      parentName: Peito
+      position: {x: -0.00065677986, y: 0.0023780384, z: -0.00000061822124}
+      rotation: {x: 0.07932053, y: -0.10953238, z: 0.80634135, w: 0.57578176}
+      scale: {x: 0.9999675, y: 0.999999, z: 1.0000353}
+    - name: Braco.l
+      parentName: Ombro.l
+      position: {x: -0.0000000010244549, y: 0.0013448193, z: -1.0950316e-10}
+      rotation: {x: -0.11836206, y: -0.69713956, z: 0.11831948, w: -0.69712794}
+      scale: {x: 1.0000011, y: 1.000066, z: 0.9999354}
+    - name: Antebraco.l
+      parentName: Braco.l
+      position: {x: 2.9802322e-10, y: 0.0024810918, z: 1.4901161e-10}
+      rotation: {x: 0.0010059846, y: 0.000028133385, z: 0.013001499, w: -0.999915}
+      scale: {x: 1.0000031, y: 0.9999963, z: 1.0000005}
+    - name: Mao.l
+      parentName: Antebraco.l
+      position: {x: 2.7939676e-10, y: 0.0029025676, z: -3.5390257e-10}
+      rotation: {x: 0.012751419, y: 0.00016744126, z: 0.013000399, w: 0.9998342}
+      scale: {x: 1.0000017, y: 1.0000033, z: 0.9999998}
+    - name: Dedos.l
+      parentName: Mao.l
+      position: {x: -3.5390257e-10, y: 0.0009117314, z: -1.8626451e-11}
+      rotation: {x: 0.000000059604623, y: -7.1304357e-10, z: -0.000000059206947, w: 1}
+      scale: {x: 0.9999999, y: 0.9999993, z: 1.0000014}
+    - name: Dedos2.l
+      parentName: Dedos.l
+      position: {x: 9.3132255e-12, y: 0.00034829287, z: 5.122274e-11}
+      rotation: {x: -0.000000022351735, y: 2.7648628e-10, z: 0.000000022355598, w: 1}
+      scale: {x: 1.0000015, y: 0.9999998, z: 0.9999996}
+    - name: Dedos3.l
+      parentName: Dedos2.l
+      position: {x: 3.1664968e-10, y: 0.00031573075, z: -9.126961e-10}
+      rotation: {x: -0.00000003725289, y: 4.365573e-10, z: 0.000000037259483, w: 1}
+      scale: {x: 1.0000042, y: 1.0000005, z: 0.9999984}
+    - name: Dedos3.l_end
+      parentName: Dedos3.l
+      position: {x: -0, y: 0.00028490066, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao.l
+      parentName: Mao.l
+      position: {x: -0.0003492033, y: 0.00027988796, z: -0.00006598657}
+      rotation: {x: -0.023674138, y: -0.20546825, z: 0.05932159, w: 0.9765773}
+      scale: {x: 1.0000131, y: 1.0000074, z: 0.9999823}
+    - name: Dedao2.l
+      parentName: Dedao.l
+      position: {x: 2.0489097e-10, y: 0.00056391605, z: 3.72529e-10}
+      rotation: {x: 0.008398053, y: -0.038890764, z: 0.010594152, w: 0.99915206}
+      scale: {x: 1.0000086, y: 0.99999833, z: 0.9999916}
+    - name: Dedao3.l
+      parentName: Dedao2.l
+      position: {x: -1.862645e-10, y: 0.00017916011, z: 0}
+      rotation: {x: -0.008767439, y: -0.010765899, z: -0.039787665, w: 0.9991118}
+      scale: {x: 1.0000169, y: 0.9999926, z: 0.99999464}
+    - name: Dedao3.l_end
+      parentName: Dedao3.l
+      position: {x: -0, y: 0.00016722642, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ombro.r
+      parentName: Peito
+      position: {x: 0.0006401401, y: 0.0023778968, z: -0.0000006363168}
+      rotation: {x: 0.07820519, y: 0.11115781, z: -0.8061853, w: 0.57584137}
+      scale: {x: 0.99996644, y: 0.99999905, z: 1.000037}
+    - name: Braco.r
+      parentName: Ombro.r
+      position: {x: -5.401671e-10, y: 0.0013449165, z: 7.4505804e-11}
+      rotation: {x: -0.11843002, y: 0.6971334, z: -0.118366286, w: -0.6971146}
+      scale: {x: 1.0000024, y: 1.0000677, z: 0.999935}
+    - name: Antebraco.r
+      parentName: Braco.r
+      position: {x: 5.5879353e-11, y: 0.0024811043, z: -2.4214386e-10}
+      rotation: {x: 0.0010058879, y: -0.000025689598, z: -0.013001239, w: -0.999915}
+      scale: {x: 1.0000143, y: 0.9999848, z: 1.0000019}
+    - name: Mao.r
+      parentName: Antebraco.r
+      position: {x: -1.44355e-10, y: 0.0029025837, z: 1.4901161e-10}
+      rotation: {x: 0.012751591, y: -0.0001643722, z: -0.013000152, w: 0.9998342}
+      scale: {x: 0.9999997, y: 1.0000015, z: 0.99999845}
+    - name: Dedos.r
+      parentName: Mao.r
+      position: {x: 7.357448e-10, y: 0.000911733, z: -7.4505804e-11}
+      rotation: {x: 0.000000032596287, y: -0.000000058920698, z: 0.000000059971164,
+        w: 1}
+      scale: {x: 0.9999996, y: 1.000009, z: 0.99999356}
+    - name: Dedos2.r
+      parentName: Dedos.r
+      position: {x: -2.4680047e-10, y: 0.00034829328, z: -2.0489097e-10}
+      rotation: {x: -0.00000003073364, y: -0.000000029394855, z: 0.00000003017748,
+        w: 1}
+      scale: {x: 0.9999988, y: 0.999996, z: 1.0000068}
+    - name: Dedos3.r
+      parentName: Dedos2.r
+      position: {x: -1.5832484e-10, y: 0.0003157309, z: 3.7252902e-11}
+      rotation: {x: -0.000000023283063, y: -6.4028055e-10, z: -0.00000005215837, w: 1}
+      scale: {x: 1.0000017, y: 1.0000054, z: 0.99999887}
+    - name: Dedos3.r_end
+      parentName: Dedos3.r
+      position: {x: -0, y: 0.00028490066, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Espada
+      parentName: Mao.r
+      position: {x: -0.00033444838, y: 0.0006485633, z: -0.00022104791}
+      rotation: {x: 0.000008100638, y: -0.000040424522, z: 0.047982223, w: -0.9988482}
+      scale: {x: 1.0000013, y: 1.0000001, z: 1.0000006}
+    - name: Espada_end
+      parentName: Espada
+      position: {x: -0, y: 0.0009117615, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao.r
+      parentName: Mao.r
+      position: {x: 0.0003258211, y: 0.00008529019, z: -0.00011703908}
+      rotation: {x: 0.023671653, y: -0.2055334, z: 0.05931986, w: -0.9765638}
+      scale: {x: 1.0000294, y: 0.9999872, z: 0.99998516}
+    - name: Dedao2.r
+      parentName: Dedao.r
+      position: {x: 7.543713e-10, y: 0.00056395755, z: 0}
+      rotation: {x: 0.008402361, y: 0.03889849, z: -0.010594402, w: 0.99915177}
+      scale: {x: 1.000012, y: 0.999999, z: 0.9999904}
+    - name: Dedao3.r
+      parentName: Dedao2.r
+      position: {x: 3.7252902e-11, y: 0.00017917319, z: -2.6077032e-10}
+      rotation: {x: -0.008771813, y: 0.010757858, z: 0.039775133, w: 0.99911225}
+      scale: {x: 1.0000067, y: 1.0000014, z: 0.9999914}
+    - name: Dedao3.r_end
+      parentName: Dedao3.r
+      position: {x: -0, y: 0.00016722642, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SaiaF
+      parentName: MestreCostas
+      position: {x: 0.000055632543, y: -0.0010259609, z: -0.00007800129}
+      rotation: {x: 0.50392616, y: -0.4883026, z: 0.48953056, w: -0.51766676}
+      scale: {x: 1.0000193, y: 0.9999824, z: 1.0000011}
+    - name: Saia2F
+      parentName: SaiaF
+      position: {x: 7.4505804e-11, y: 0.0017519123, z: -1.862645e-10}
+      rotation: {x: -0.016933886, y: -0.69128746, z: 0.0084299315, w: 0.7223323}
+      scale: {x: 1.0000054, y: 0.9999981, z: 0.9999995}
+    - name: Saia2F_end
+      parentName: Saia2F
+      position: {x: -0, y: 0.001155389, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolePerna.l
+      parentName: Mestre
+      position: {x: -0.00016437091, y: -0.0014420511, z: 0.0009453277}
+      rotation: {x: -0.00017684238, y: 0.008060307, z: -0.99995595, w: -0.004813637}
+      scale: {x: 1.0001417, y: 1.0000212, z: 1.0004574}
+    - name: Pe.l
+      parentName: PolePerna.l
+      position: {x: 9.393261e-11, y: 0.0000000010444273, z: -7.0645e-11}
+      rotation: {x: 0.9069587, y: -0.000054874065, z: -0.00011839102, w: -0.42121962}
+      scale: {x: 1, y: 0.9999771, z: 1.0000278}
+    - name: Pontape.l
+      parentName: Pe.l
+      position: {x: 3.9656244e-11, y: 0.00090072025, z: -6.402843e-11}
+      rotation: {x: 0.008603789, y: 0.9276526, z: -0.37332883, w: 0.0035034479}
+      scale: {x: 1.0000021, y: 1.0000767, z: 0.9999245}
+    - name: Pontape.l_end
+      parentName: Pontape.l
+      position: {x: -0, y: 0.0012894577, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IKPerna.l
+      parentName: Mestre
+      position: {x: 0.004093862, y: -0.001227763, z: 0.0045061507}
+      rotation: {x: 0.008058449, y: -0.00022691017, z: -0.004819882, w: 0.9999559}
+      scale: {x: 1.0000014, y: 0.99999976, z: 0.9999996}
+    - name: IKPerna.l_end
+      parentName: IKPerna.l
+      position: {x: -0, y: 0.0018552064, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolePerna.r
+      parentName: Mestre
+      position: {x: -0.001365533, y: 0.0032749465, z: 0.0010213273}
+      rotation: {x: 0.00012031845, y: 0.008058874, z: -0.9999559, w: -0.0048192902}
+      scale: {x: 0.9999857, y: 0.99999905, z: 0.999959}
+    - name: Pe.r
+      parentName: PolePerna.r
+      position: {x: -1.3736041e-10, y: 0.0000000013418924, z: -6.0283146e-12}
+      rotation: {x: 0.90689856, y: -0.00005500453, z: -0.00011818034, w: -0.42134908}
+      scale: {x: 1.0000001, y: 0.99997526, z: 1.0000254}
+    - name: Pontape.r
+      parentName: Pe.r
+      position: {x: -5.3175426e-11, y: 0.0009009873, z: 4.9196386e-10}
+      rotation: {x: -0.008605374, y: 0.927601, z: -0.37345698, w: -0.003507978}
+      scale: {x: 1, y: 0.99913925, z: 1.0008614}
+    - name: Pontape.r_end
+      parentName: Pontape.r
+      position: {x: -0, y: 0.0012894577, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IKPerna.r
+      parentName: Mestre
+      position: {x: -0.0011813653, y: 0.006302059, z: 0.0046272743}
+      rotation: {x: 0.008058449, y: -0.00022691017, z: -0.004819882, w: 0.9999559}
+      scale: {x: 1.0000014, y: 0.99999976, z: 0.9999996}
+    - name: IKPerna.r_end
+      parentName: IKPerna.r
+      position: {x: -0, y: 0.0018552064, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wanko
+      parentName: Neko(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Florete
+      parentName: Neko(Clone)
+      position: {x: 0.84855306, y: 1.1756756, z: 0.18813263}
+      rotation: {x: 4.9880073e-24, y: -0.00000008146034, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cabelo
+      parentName: Neko(Clone)
+      position: {x: -0.0015278608, y: 1.7715073, z: 0.12969886}
+      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cauda
+      parentName: Neko(Clone)
+      position: {x: -0.14721356, y: 0.8159772, z: 0.07950893}
+      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

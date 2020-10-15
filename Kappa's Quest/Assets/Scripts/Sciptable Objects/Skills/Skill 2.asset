@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cb3e025c56b014c93846a8e7cbdc83, type: 3}
+  m_Name: Skill 2
+  m_EditorClassIdentifier: 
+  skill_name: Raio
+  skill_discription: 'Um golpe elemental de raio que causa # de dano com um multiplicador
+    de $.
+
+    Cooldown: & segundos'
+  baseDamage: 500
+  intelligenceMult: 0.6
+  cooldown: 20
+  castTime: 2
+  leftover: 0.5
+  skillSp: {fileID: 607381134639416774, guid: 829eed7a206e754488e1541b566b4319, type: 3}

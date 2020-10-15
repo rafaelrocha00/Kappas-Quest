@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/0_Fases/0_TelaInicial/TelaInicial.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/0_Fases/0_TelaInicial/Historia.unity
+    guid: 46f72270de490a149b6324dc76644bd4
+  - enabled: 1
+    path: Assets/0_Fases/1_SelecaoDeFases/EscolhaDeFase.unity
+    guid: 9001ecd31846e1643831d70e254aadfb
+  - enabled: 1
+    path: Assets/0_Fases/3_Ruina/Ruina.unity
+    guid: d0a86fd2b5fbe8848aaa33beea471617
+  - enabled: 1
+    path: Assets/0_Fases/ColiseuMontanha/Coliseu_Montanha.unity
+    guid: 6bf6f32850fc03848881b3f77b4ca8fd
+  - enabled: 1
+    path: Assets/0_Fases/TelaFinal/TelaFinal.unity
+    guid: 866b384aac5826b4fa0dd94e5c50df00
   m_configObjects: {}
