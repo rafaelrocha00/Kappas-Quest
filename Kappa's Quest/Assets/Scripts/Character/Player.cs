@@ -9,7 +9,8 @@ public class Player : Character
 
     private void Start()
     {
-        myToken = Instantiate(CharToken);
+        if (GameManager.instance.playerToken == null) myToken = Instantiate(CharToken);
+        else myToken = GameManager.instance.playerToken;
 
         myToken.Skills.CopyTo(skills, 0);
 
@@ -79,7 +80,8 @@ public class Player : Character
 
     public void ReplaceSkill(int id, Skill newSkill)
     {
-        myToken.SetNewSkill(id, newSkill);
+        Debug.Log("Replacing skill with " + newSkill.Name);
+        myToken.SetNewSkill(id, newSkill); 
     }
 
     public void SaveToken()

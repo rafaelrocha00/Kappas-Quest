@@ -5196,6 +5196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharToken: {fileID: 11400000, guid: e4cf853c3f031814d8b6fc9aa32616ef, type: 2}
+  Audio: {fileID: 0}
   currentTarget: {fileID: 0}
   defending: 0
 --- !u!1 &667546992
@@ -10519,6 +10520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa12ccca7c84354fada67b1f46863b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerToken: {fileID: 0}
 --- !u!4 &1234298452
 Transform:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] Player player;
     public Player Player { get { if (player != null) return player; else return player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>(); } }
 
-    CharacterToken playerToken;
+    public CharacterToken playerToken;
 
     [HideInInspector] MainHud mainHud;
     public MainHud MainHud { get { if (mainHud != null) return mainHud; else return mainHud = GameObject.Find("/MainHud").GetComponent<MainHud>(); } }
@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         battleController = GetComponent<BattleController>();
 
         //Setar skill do player;
-        if (GameManager.instance.playerToken != null) GameManager.instance.player.CharToken = GameManager.instance.playerToken;
+        //if (GameManager.instance.playerToken != null) GameManager.instance.player.CharToken = GameManager.instance.playerToken;
     }
 
     public void SavePlayerToken(CharacterToken ct)

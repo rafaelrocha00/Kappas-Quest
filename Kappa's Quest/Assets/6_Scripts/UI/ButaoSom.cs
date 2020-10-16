@@ -10,20 +10,25 @@ public class ButaoSom : MonoBehaviour
     void Start()
     {
         butao = GetComponent<Button>();
+        if(butao != null)
         butao.onClick.AddListener(Ativar);
     }
 
     void Ativar()
     {
-        if(som != null)
+        if(SFX.instancia != null)
         {
-            SFX.instancia.MostrarSom(som);
+            if (som != null)
+            {
+                SFX.instancia.MostrarSom(som);
 
+            }
+            else
+            {
+                SFX.instancia.MostrarSomDeVoltar();
+            }
         }
-        else
-        {
-            SFX.instancia.MostrarSomDeVoltar();
-        }
+       
     }
     
 }

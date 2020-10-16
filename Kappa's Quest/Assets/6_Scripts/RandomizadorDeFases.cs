@@ -41,11 +41,15 @@ public class RandomizadorDeFases : MonoBehaviour
     public void Batalhar()
     {
         SFX.instancia.MostrarSomDeBotao();
-        inimigoAtual.SetStats(faseSelecionada.status);
-        inimigoAtual.SetNewSkill(0, faseSelecionada.skills[0]);
-        inimigoAtual.SetNewSkill(1, faseSelecionada.skills[1]);
-        inimigoAtual.SetNewSkill(2, faseSelecionada.skills[2]);
-        C_Jogo.instancia.MudarDeFase(faseSelecionada.cenario, faseSelecionada, inimigoAtual);
+        if(inimigoAtual != null)
+        {
+            inimigoAtual.SetStats(faseSelecionada.status);
+            inimigoAtual.SetNewSkill(0, faseSelecionada.skills[0]);
+            inimigoAtual.SetNewSkill(1, faseSelecionada.skills[1]);
+            inimigoAtual.SetNewSkill(2, faseSelecionada.skills[2]);
+            C_Jogo.instancia.MudarDeFase(faseSelecionada.cenario, faseSelecionada, inimigoAtual);
+        }
+        
     }
 
     private void Start()
