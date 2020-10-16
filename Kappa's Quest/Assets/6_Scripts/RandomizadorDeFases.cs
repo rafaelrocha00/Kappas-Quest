@@ -41,7 +41,7 @@ public class RandomizadorDeFases : MonoBehaviour
     public void Batalhar()
     {
         SFX.instancia.MostrarSomDeBotao();
-        if(inimigoAtual != null)
+        if(inimigoAtual != null  && faseSelecionada != null)
         {
             inimigoAtual.SetStats(faseSelecionada.status);
             inimigoAtual.SetNewSkill(0, faseSelecionada.skills[0]);
