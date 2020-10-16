@@ -116,7 +116,7 @@ public class MainHud : MonoBehaviour
 
         for (int i = 0; i < 3; i++)
         {
-            playerSkills[i].SetSkill(GameManager.instance.Player.CharToken.Skills[i]);
+            playerSkills[i].SetSkill(GameManager.instance.Player.MyToken.Skills[i]);
         }
         for (int i = 0; i < 3; i++)
         {

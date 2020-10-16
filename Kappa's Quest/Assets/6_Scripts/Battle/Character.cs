@@ -11,7 +11,8 @@ public class Character : MonoBehaviour
     //public int default_intelligence = 1;
     //public int default_agility = 1;
     public CharacterToken CharToken;
-    protected CharacterToken myToken;
+    [HideInInspector] protected CharacterToken myToken;
+    public CharacterToken MyToken { get { return myToken; } }
 
     //Efeitos
     protected Animator animator;
