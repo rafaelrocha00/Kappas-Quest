@@ -7,8 +7,8 @@ public class CharacterStats
     [SerializeField] float maxLife = 1000.0f;
     [SerializeField] float attackCooldown = 1.0f;
     [SerializeField] float defenseCooldown = 10.0f;
-    [SerializeField] float attackCast = 0.25f;
-    [SerializeField] float attackLeftover = 0.2f;
+    [SerializeField] float attackCast = 0.5f;
+    [SerializeField] float attackLeftover = 0.5f;
 
     [SerializeField] int vitality = 1;
     [SerializeField] int strength = 1;

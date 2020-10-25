@@ -20,6 +20,6 @@ MonoBehaviour:
   baseDamage: 500
   intelligenceMult: 0.6
   cooldown: 20
-  castTime: 2
-  leftover: 0.5
+  castTime: 1.6
+  leftover: 1.2
   skillSp: {fileID: 607381134639416774, guid: 829eed7a206e754488e1541b566b4319, type: 3}
