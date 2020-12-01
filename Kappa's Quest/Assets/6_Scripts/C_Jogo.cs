@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class C_Jogo : MonoBehaviour
 {
     public static C_Jogo instancia;
+    public int TipoDePersonagem;
     public int camadaAtual = -1;
     GameObject objetoPai;
+    public GameObject personagemPrincipalPrefab;
     [SerializeField] int SeletorDeFases;
     [SerializeField] int CenaFinal;
     public Fase faseAtual;
@@ -17,6 +19,24 @@ public class C_Jogo : MonoBehaviour
         this.objetoPai = objetoPai;
         this.camadaAtual = camadaAtual;
         DontDestroyOnLoad(objetoPai);
+    }
+
+    public void MudarFase(int fase, bool ativar = false)
+    {
+        if(objetoPai != null)
+        {
+            if (ativar)
+            {
+                objetoPai.SetActive(true);
+
+            }
+            else
+            {
+                objetoPai.SetActive(false);
+            }
+        }
+        SceneManager.LoadScene(fase);
+
     }
 
     public void MudarDeFase(int fase, Fase faseAtual, CharacterToken inimigoStatus)
@@ -29,23 +49,26 @@ public class C_Jogo : MonoBehaviour
     IEnumerator MudarDeFaseYield(int fase, Fase faseAtual, CharacterToken inimigoStatus)
     {
         SceneManager.LoadScene(fase);
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
         SetarInimigo Setar = GameObject.FindGameObjectWithTag("Setagem").GetComponent<SetarInimigo>();
+        Transform posicaoParaPersonagemPrincipal = GameObject.FindGameObjectWithTag("PlayerPosition").transform;
         if (Setar == null)
         {
             Debug.Log("Setagem é nulla");
         }
         GameObject inimigo = Instantiate(faseAtual.tipoDeInimigo, Setar.transform);
         Character inimigoCharacter = inimigo.AddComponent<Enemy>();
+        Character personagemPrincipal = Instantiate(personagemPrincipalPrefab, posicaoParaPersonagemPrincipal.position, posicaoParaPersonagemPrincipal.rotation).GetComponent<Player>();
         inimigoCharacter.CharToken = inimigoStatus;
-        inimigoCharacter.currentTarget = Setar.personagemPrincipal;
-        Setar.personagemPrincipal.currentTarget = inimigoCharacter;
+        inimigoCharacter.currentTarget = personagemPrincipal;
+        personagemPrincipal.currentTarget = inimigoCharacter;
         BattleController bc = GameObject.FindGameObjectWithTag("BattleController").GetComponent<BattleController>();
         bc.StartCountdown();
     }
 
     public void Vencer()
     {
+        GetComponent<Inventario>().AdicionarDinheiro(100);
         camadaAtual++;
         SceneManager.LoadScene(SeletorDeFases);
         objetoPai.SetActive(true);

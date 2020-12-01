@@ -12,15 +12,21 @@ EditorBuildSettings:
     path: Assets/0_Fases/0_TelaInicial/Historia.unity
     guid: 46f72270de490a149b6324dc76644bd4
   - enabled: 1
+    path: Assets/0_Fases/2_EscolhaDePersonagem/EscolhaDePersonagem.unity
+    guid: aa0dd608e625c2042a3c305369eeafcb
+  - enabled: 1
     path: Assets/0_Fases/1_SelecaoDeFases/EscolhaDeFase.unity
     guid: 9001ecd31846e1643831d70e254aadfb
   - enabled: 1
-    path: Assets/0_Fases/3_Ruina/Ruina.unity
+    path: Assets/0_Fases/4_Ruina/Ruina.unity
     guid: d0a86fd2b5fbe8848aaa33beea471617
   - enabled: 1
     path: Assets/0_Fases/ColiseuMontanha/Coliseu_Montanha.unity
     guid: 6bf6f32850fc03848881b3f77b4ca8fd
   - enabled: 1
     path: Assets/0_Fases/TelaFinal/TelaFinal.unity
-    guid: 866b384aac5826b4fa0dd94e5c50df00
+    guid: bdcc0f11ac21adf4390ee7db83aedf3c
+  - enabled: 1
+    path: Assets/0_Fases/Loja/Loja.unity
+    guid: aaa245cda3febd94bbf3f94e72215ba2
   m_configObjects: {}

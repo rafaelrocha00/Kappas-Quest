@@ -5,5 +5,4 @@ using UnityEngine;
 public class SetarInimigo : MonoBehaviour
 {
     public Vector3 pontoParaSetar;
-    public Character personagemPrincipal;
 }

@@ -32,6 +32,24 @@ public class CharacterToken : ScriptableObject
         agility = cs.Agility;
     }
 
+    public void AddStats(CharacterStats cs)
+    {
+        vitality += cs.Vitality;
+        strenght += cs.Strength;
+        resistance += cs.Resistance;
+        intelligence += cs.Intelligence;
+        agility += cs.Agility;
+    }
+
+    public void TakeStats(CharacterStats cs)
+    {
+        vitality -= cs.Vitality;
+        strenght -= cs.Strength;
+        resistance -= cs.Resistance;
+        intelligence -= cs.Intelligence;
+        agility -= cs.Agility;
+    }
+
     public void SetNewSkill(int id, Skill sk)
     {
         skills[id] = sk;
