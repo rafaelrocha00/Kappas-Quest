@@ -956,7 +956,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TipoDePersonagem: 0
   camadaAtual: -1
-  personagemPrincipalPrefab: {fileID: 0}
+  personagemPrincipalPrefab: {fileID: 3518845293626646774, guid: 303d938aba904454e92b1b7a4c6094ff,
+    type: 3}
   SeletorDeFases: 3
   CenaFinal: 5
   faseAtual: {fileID: 0}
@@ -2034,7 +2035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f059a68b14932b45b259b6bdd1ee29b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Personagem: {fileID: 1770635832070687970, guid: a3986750a58c2bd41b117ac4d2829ed7,
+  Personagem: {fileID: 7155422835018764061, guid: b7004b537baa7984597cbbb3fddf5d1d,
     type: 3}
   icon: {fileID: 2117470529}
   painelAtributos: {fileID: 2104032897}
@@ -3038,7 +3039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f059a68b14932b45b259b6bdd1ee29b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Personagem: {fileID: 4686481164198652090, guid: 0897cbfe175df3144b6a0fa004f04958,
+  Personagem: {fileID: 3518845293626646774, guid: 303d938aba904454e92b1b7a4c6094ff,
     type: 3}
   icon: {fileID: 953380100}
   painelAtributos: {fileID: 815524360}
@@ -3699,7 +3700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f059a68b14932b45b259b6bdd1ee29b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Personagem: {fileID: 3798825277448383590, guid: 124b03862ff30194aa8b714da5efcca2,
+  Personagem: {fileID: 2963950394670186086, guid: 5699355ff80b0594da816d11cfea2cc0,
     type: 3}
   icon: {fileID: 1792432435}
   painelAtributos: {fileID: 100159196}

@@ -47,7 +47,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -60,7 +60,7 @@ ModelImporter:
       takeName: Armature|Ataque
       internalID: 0
       firstFrame: 0
-      lastFrame: 35
+      lastFrame: 48
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -234,7 +234,7 @@ ModelImporter:
       takeName: Armature|Magia
       internalID: 0
       firstFrame: 0
-      lastFrame: 70
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -328,277 +328,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: Kappa.v2(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Armadura 1
-      parentName: Kappa.v2(Clone)
-      position: {x: -0, y: 0.035426237, z: -0.000000017048027}
-      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Armature
-      parentName: Kappa.v2(Clone)
-      position: {x: -0, y: 0.8673282, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: 8.659561e-17, w: 0.7071068}
-      scale: {x: 100, y: 100, z: 100}
-    - name: Mestre
-      parentName: Armature
-      position: {x: -0.000037548187, y: -0.0029967022, z: -0.00851873}
-      rotation: {x: 0.70302165, y: 0.0034171338, z: 0.71115226, w: 0.0033815498}
-      scale: {x: 1.000001, y: 1.0000007, z: 0.99877477}
-    - name: IKPerna.l
-      parentName: Mestre
-      position: {x: 0.0021121153, y: -0.003731572, z: -0.0014468799}
-      rotation: {x: 0.011410206, y: 0.0016464163, z: -0.99992204, w: 0.0048076357}
-      scale: {x: 1.0039214, y: 0.9999749, z: 1.0000265}
-    - name: Pe.l
-      parentName: IKPerna.l
-      position: {x: -6.1467287e-10, y: -2.0154406e-10, z: 8.195639e-11}
-      rotation: {x: -0.010667237, y: -0.0014543011, z: 0.86444, w: -0.5026207}
-      scale: {x: 0.99999213, y: 1.0000045, z: 1.000004}
-    - name: PontaPe.l
-      parentName: Pe.l
-      position: {x: 6.332994e-11, y: 0.0016625598, z: 3.958121e-11}
-      rotation: {x: 0.004972721, y: 0.00046825717, z: -0.5067224, w: 0.8620948}
-      scale: {x: 0.994274, y: 1.0057763, z: 0.99999905}
-    - name: PontaPe.l_end
-      parentName: PontaPe.l
-      position: {x: -0, y: 0.0033197706, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: PolePerna.l
-      parentName: Mestre
-      position: {x: 0.003780899, y: 0.00052661524, z: -0.0014593182}
-      rotation: {x: 0.00016514608, y: -0.04675916, z: 0.004804743, w: 0.99889463}
-      scale: {x: 0.9999999, y: 0.9999997, z: 0.9999993}
-    - name: PolePerna.l_end
-      parentName: PolePerna.l
-      position: {x: -0, y: 0.0028887053, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: IKPerna.r
-      parentName: Mestre
-      position: {x: 0.0021609706, y: -0.009932045, z: 0.0020070693}
-      rotation: {x: 0.9999872, y: 0.004789044, z: 0.000044226643, w: 0.0016469643}
-      scale: {x: 0.9962247, y: 0.99959403, z: 1.0004044}
-    - name: Pe.r
-      parentName: IKPerna.r
-      position: {x: -2.384186e-10, y: -0.0000000010896329, z: 2.7567149e-10}
-      rotation: {x: -0.010684003, y: 0.001474935, z: -0.8627789, w: -0.50546646}
-      scale: {x: 0.99999666, y: 1.0000079, z: 1.0000024}
-    - name: PontaPe.r
-      parentName: Pe.r
-      position: {x: 1.192093e-10, y: 0.001672287, z: 2.2351743e-10}
-      rotation: {x: 0.007347933, y: 0.00071099075, z: 0.50962067, w: 0.86036754}
-      scale: {x: 1.0048695, y: 0.9951632, z: 1.0000007}
-    - name: PontaPe.r_end
-      parentName: PontaPe.r
-      position: {x: -0, y: 0.0033197706, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: PolePerna.r
-      parentName: Mestre
-      position: {x: 0.0062999614, y: -0.0037542693, z: 0.0057235486}
-      rotation: {x: 0.004802137, y: -0.9993658, z: 0.00022763282, w: 0.035284206}
-      scale: {x: 0.99999994, y: 1.0000011, z: 0.9999995}
-    - name: PolePerna.r_end
-      parentName: PolePerna.r
-      position: {x: -0, y: 0.0028887053, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: MestreCostas
-      parentName: Armature
-      position: {x: -0.00013397285, y: 0.0033407575, z: 0.00102097}
-      rotation: {x: -0.00000008940697, y: 8.881784e-16, z: 0.000000018189894, w: 1}
-      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000005}
-    - name: Barriga
-      parentName: MestreCostas
-      position: {x: 5.2154066e-11, y: -1.937151e-10, z: 0}
-      rotation: {x: 0.53086376, y: -0.46552277, z: -0.5322515, w: 0.46709806}
-      scale: {x: 1.0000013, y: 1.0000011, z: 1.0000011}
-    - name: Peito
-      parentName: Barriga
-      position: {x: -7.4505804e-11, y: 0.0030003586, z: -2.6077032e-10}
-      rotation: {x: 0.005201876, y: -0.00013776124, z: 0.11953774, w: 0.9928161}
-      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
-    - name: Pescoco
-      parentName: Peito
-      position: {x: -5.960465e-11, y: 0.003589375, z: 8.940697e-11}
-      rotation: {x: -0.003735709, y: -0.000048717488, z: -0.05316297, w: 0.99857885}
-      scale: {x: 1.0000007, y: 0.9999995, z: 1.0000007}
-    - name: Cabeca
-      parentName: Pescoco
-      position: {x: 2.9802324e-11, y: 0.0009116631, z: 1.4901161e-10}
-      rotation: {x: 0.000004272209, y: -0.0000000585569, z: 0.008162309, w: 0.99996674}
-      scale: {x: 1.0000015, y: 1.0000002, z: 1.0000013}
-    - name: Cabeca_end
-      parentName: Cabeca
-      position: {x: -0, y: 0.0034984662, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ombro.l
-      parentName: Peito
-      position: {x: -0.0000054996613, y: 0.003539093, z: 0.0008760229}
-      rotation: {x: 0.80805993, y: -0.04252579, z: -0.028823534, w: 0.586856}
-      scale: {x: 1.0000011, y: 1.0000018, z: 0.99999994}
-    - name: Braco.l
-      parentName: Ombro.l
-      position: {x: 2.0861626e-10, y: 0.0012320655, z: 5.960465e-11}
-      rotation: {x: -0.2005849, y: 0.000028759234, z: -0.0023115082, w: 0.9796737}
-      scale: {x: 1.0000008, y: 1.0000023, z: 1.000001}
-    - name: Antebraco.l
-      parentName: Braco.l
-      position: {x: -2.384186e-10, y: 0.0027239209, z: 0}
-      rotation: {x: 0.0024705213, y: -0.003782927, z: 0.03262632, w: 0.9994574}
-      scale: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
-    - name: Mao.l
-      parentName: Antebraco.l
-      position: {x: -0, y: 0.0031504151, z: -3.129244e-10}
-      rotation: {x: -0.020207422, y: -0.00000020102695, z: -0.00014157959, w: 0.99979585}
-      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000008}
-    - name: Dedos.l
-      parentName: Mao.l
-      position: {x: 6.8545336e-10, y: 0.0020512147, z: -2.6822092e-10}
-      rotation: {x: 0.030311879, y: 0.00835326, z: -0.6302695, w: 0.77573955}
-      scale: {x: 1.0000008, y: 1.0000014, z: 1.000001}
-    - name: Dedos2.l
-      parentName: Dedos.l
-      position: {x: 6.0535965e-11, y: 0.00081310124, z: -4.5262272e-10}
-      rotation: {x: -0.004504499, y: -0.0014061064, z: -0.0044011935, w: 0.99997926}
-      scale: {x: 1.0000005, y: 1, z: 1.0000004}
-    - name: Dedos3.l
-      parentName: Dedos2.l
-      position: {x: 2.4214387e-11, y: 0.0007559241, z: 1.0430813e-10}
-      rotation: {x: -0.007979888, y: -0.013383503, z: 0.005981581, w: 0.9998607}
-      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000008}
-    - name: Dedos3.l_end
-      parentName: Dedos3.l
-      position: {x: -0, y: 0.00080298824, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Dedao.l
-      parentName: Mao.l
-      position: {x: 0.0005047154, y: 0.0011599393, z: 0.00012409591}
-      rotation: {x: -0.21251494, y: -0.2600214, z: -0.6347954, w: 0.69588864}
-      scale: {x: 1.0000001, y: 0.9999996, z: 0.99999994}
-    - name: Dedao2.l
-      parentName: Dedao.l
-      position: {x: -3.2404207e-10, y: 0.0012809866, z: -9.778888e-12}
-      rotation: {x: -0.007402664, y: 0.004165846, z: 0.050797235, w: 0.9986729}
-      scale: {x: 0.9999993, y: 1.0000007, z: 1.0000012}
-    - name: Dedao2.l_end
-      parentName: Dedao2.l
-      position: {x: -0, y: 0.00086267584, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ombro.r
-      parentName: Peito
-      position: {x: -0.0000069380108, y: 0.0035260727, z: -0.00088089594}
-      rotation: {x: -0.028476402, y: -0.58081645, z: 0.81241024, w: 0.04279161}
-      scale: {x: 1.0000006, y: 0.99999994, z: 0.9999997}
-    - name: Braco.r
-      parentName: Ombro.r
-      position: {x: 2.384186e-10, y: 0.0012320658, z: -4.0233133e-10}
-      rotation: {x: -0.20058511, y: -0.000028936178, z: 0.0023113515, w: 0.9796736}
-      scale: {x: 1.0000025, y: 1.0000035, z: 1.0000014}
-    - name: Antebraco.r
-      parentName: Braco.r
-      position: {x: 2.384186e-10, y: 0.0027239232, z: 1.192093e-10}
-      rotation: {x: 0.0010076158, y: -0.0000050587787, z: -0.00015472108, w: 0.9999995}
-      scale: {x: 0.99999994, y: 1.0000014, z: 1.0000005}
-    - name: Mao.r
-      parentName: Antebraco.r
-      position: {x: -8.940697e-10, y: 0.003150416, z: -5.960465e-11}
-      rotation: {x: 0.020207517, y: -0.00000018140314, z: -0.0001415644, w: -0.9997958}
-      scale: {x: 1.0000001, y: 1.0000006, z: 0.9999999}
-    - name: Dedos.r
-      parentName: Mao.r
-      position: {x: 5.2154066e-11, y: 0.0020512147, z: -8.195639e-11}
-      rotation: {x: -0.013247474, y: 0.00000010413053, z: 0.00009282965, w: -0.99991226}
-      scale: {x: 1.0000014, y: 0.99999994, z: 1.0000013}
-    - name: Dedos2.r
-      parentName: Dedos.r
-      position: {x: 3.534369e-10, y: 0.0008131015, z: 1.4901162e-11}
-      rotation: {x: 0.004504442, y: -0.0014060901, z: -0.0044012195, w: -0.99997926}
-      scale: {x: 0.99999964, y: 1.0000015, z: 0.99999994}
-    - name: Dedos3.r
-      parentName: Dedos2.r
-      position: {x: 2.384186e-10, y: 0.00075592444, z: -2.6822092e-10}
-      rotation: {x: -0.007979975, y: 0.013383529, z: -0.005981592, w: 0.9998607}
-      scale: {x: 1.0000001, y: 1.0000002, z: 1.000001}
-    - name: Dedos3.r_end
-      parentName: Dedos3.r
-      position: {x: -0, y: 0.00080298824, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Dedao.r
-      parentName: Mao.r
-      position: {x: -0.0005047141, y: 0.0011599391, z: 0.0001240961}
-      rotation: {x: 0.0053096535, y: 0.061159216, z: 0.048172552, w: 0.99695075}
-      scale: {x: 0.9999996, y: 1.0000004, z: 1.000001}
-    - name: Dedao2.r
-      parentName: Dedao.r
-      position: {x: 5.2154066e-11, y: 0.0012809862, z: 9.387732e-10}
-      rotation: {x: -0.005920338, y: -0.004167625, z: -0.04062781, w: 0.9991482}
-      scale: {x: 0.9999998, y: 1.0000006, z: 0.99999964}
-    - name: Dedao2.r_end
-      parentName: Dedao2.r
-      position: {x: -0, y: 0.00086267584, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Virilha
-      parentName: MestreCostas
-      position: {x: 5.2154066e-11, y: -1.937151e-10, z: 0}
-      rotation: {x: 0.4990596, y: -0.49905932, z: 0.5009386, w: -0.500939}
-      scale: {x: 1.0000024, y: 1.0000036, z: 1.0000011}
-    - name: Coxa.l
-      parentName: Virilha
-      position: {x: 7.7367507e-10, y: 0.0003784436, z: -0.001629323}
-      rotation: {x: -0.019298524, y: -0.000000014901161, z: -0.000000059604645, w: 0.9998138}
-      scale: {x: 1.0000006, y: 1.0000014, z: 1.0000011}
-    - name: Perna.l
-      parentName: Coxa.l
-      position: {x: -1.7881394e-10, y: 0.004912418, z: 7.82311e-11}
-      rotation: {x: 0.016487682, y: 0.0033442522, z: 0.13470277, w: 0.9907432}
-      scale: {x: 1.0000015, y: 1.0000018, z: 1.000001}
-    - name: Perna.l_end
-      parentName: Perna.l
-      position: {x: -0, y: 0.0036609014, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Coxa.r
-      parentName: Virilha
-      position: {x: -5.972319e-10, y: 0.00039056968, z: 0.0015967733}
-      rotation: {x: -0.00000004470348, y: -0.99987924, z: -0.0155403, w: 0.00000068545336}
-      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000005}
-    - name: Perna.r
-      parentName: Coxa.r
-      position: {x: 5.9604643e-10, y: 0.0049124183, z: 1.192093e-10}
-      rotation: {x: -0.016487718, y: 0.003344272, z: 0.13470277, w: -0.9907433}
-      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000012}
-    - name: Perna.r_end
-      parentName: Perna.r
-      position: {x: -0, y: 0.0036609014, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Cabelo
-      parentName: Kappa.v2(Clone)
-      position: {x: -0, y: 2.1769414, z: 0.040835343}
-      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
-      scale: {x: 1, y: 1, z: 1}
-    - name: "Cabe\xE7a"
-      parentName: Kappa.v2(Clone)
-      position: {x: -0, y: 2.1455402, z: 0.013055743}
-      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Corpo
-      parentName: Kappa.v2(Clone)
-      position: {x: -0, y: 0, z: -0.000000017048027}
-      rotation: {x: -4.3297806e-17, y: 0.7071068, z: 0.7071068, w: -4.3297806e-17}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -609,7 +339,7 @@ ModelImporter:
     globalScale: 0.8
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1

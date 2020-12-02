@@ -22,7 +22,7 @@ public class BattleController : MonoBehaviour
     {
         GameManager.instance.MainHud.Countdown(countDown);
 
-        Invoke("StartBattle", countDown + 0.5f);
+        Invoke("StartBattle", countDown);
     }
 
     void StartBattle()

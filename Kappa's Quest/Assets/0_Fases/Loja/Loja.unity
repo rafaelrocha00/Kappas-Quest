@@ -1018,9 +1018,9 @@ MonoBehaviour:
   precoItem: {fileID: 1873825757}
   comprar: {fileID: 488801578}
   posicao: {fileID: 1191704026}
-  Kappa: {fileID: 4729919452651123475, guid: 4b6587ec2e63a5b48a54e7538f168ffe, type: 3}
-  Nekko: {fileID: 7300352566937329077, guid: b19846c4b898a59499afcfcc2a99d867, type: 3}
-  Wanko: {fileID: 6923370646024443637, guid: e53ab59c144e7944c8b7ab04fe20ae94, type: 3}
+  Kappa: {fileID: 3518845293626646774, guid: 6af647fa73e687349bcbf5181e95f882, type: 3}
+  Nekko: {fileID: 2963950394670186086, guid: b57aab355ec116148a9201ff94a99a14, type: 3}
+  Wanko: {fileID: 7155422835018764061, guid: 1d2fb9cfa95107548a9d998b3d0ca53c, type: 3}
 --- !u!1 &188084283
 GameObject:
   m_ObjectHideFlags: 0

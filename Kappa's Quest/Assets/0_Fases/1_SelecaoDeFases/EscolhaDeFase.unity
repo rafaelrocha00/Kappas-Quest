@@ -1282,9 +1282,9 @@ MonoBehaviour:
   - Mountain
   - Bye
   inimigos:
-  - {fileID: 6478539552330059183, guid: d3d62c5a58ee96d4f93e9722da3f04f9, type: 3}
-  - {fileID: 6047024767523926698, guid: 2bb36edeb5ad81e4989524305da28571, type: 3}
-  - {fileID: 3053902539452563177, guid: 9d743d7f56cfb4e4ea520fd0f23d84c3, type: 3}
+  - {fileID: 3518845293626646774, guid: d3d62c5a58ee96d4f93e9722da3f04f9, type: 3}
+  - {fileID: 7155422835018764061, guid: 2bb36edeb5ad81e4989524305da28571, type: 3}
+  - {fileID: 2963950394670186086, guid: 9d743d7f56cfb4e4ea520fd0f23d84c3, type: 3}
   skillsExistentes:
   - {fileID: 11400000, guid: 42afb8443d1689b4d8a29a6db11b5f9e, type: 2}
   - {fileID: 11400000, guid: cb68b710cb3595a4e94675c1c437593b, type: 2}

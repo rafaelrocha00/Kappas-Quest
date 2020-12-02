@@ -19,7 +19,11 @@ MonoBehaviour:
     Cooldown: & segundos'
   baseDamage: 90
   intelligenceMult: 1
+  damagePerTick: 0
+  ticks: 0
+  ticksInterval: 0.25
   cooldown: 5
-  castTime: 1.6
-  leftover: 1.2
+  castTime: 0.6
+  leftover: 0.25
+  skillLengh: 0
   skillSp: {fileID: 1743864944321663441, guid: 829eed7a206e754488e1541b566b4319, type: 3}

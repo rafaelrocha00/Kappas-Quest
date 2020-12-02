@@ -237,6 +237,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharToken: {fileID: 11400000, guid: 276bb5810beb92b40932da1bc9bc7e78, type: 2}
+  Audio: {fileID: 0}
+  charStats:
+    maxLife: 1100
+    attackCooldown: 1
+    defenseCooldown: 10
+    attackCast: 0.5
+    attackLeftover: 0.5
+    vitality: 1
+    strength: 1
+    resistance: 1
+    intelligence: 1
+    agility: 1
   currentTarget: {fileID: 1854959377}
   defending: 0
   maxTimeDefending: 3
@@ -516,6 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa12ccca7c84354fada67b1f46863b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerToken: {fileID: 0}
 --- !u!4 &1616507266
 Transform:
   m_ObjectHideFlags: 0
@@ -563,6 +576,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharToken: {fileID: 11400000, guid: e4cf853c3f031814d8b6fc9aa32616ef, type: 2}
+  Audio: {fileID: 0}
+  charStats:
+    maxLife: 1100
+    attackCooldown: 1
+    defenseCooldown: 10
+    attackCast: 0.5
+    attackLeftover: 0.5
+    vitality: 1
+    strength: 1
+    resistance: 1
+    intelligence: 1
+    agility: 1
   currentTarget: {fileID: 354418705}
   defending: 0
 --- !u!65 &1854959378

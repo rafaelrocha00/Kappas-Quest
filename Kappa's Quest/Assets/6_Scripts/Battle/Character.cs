@@ -74,7 +74,9 @@ public class Character : MonoBehaviour
         {
             animator = GetComponent<Animator>();
         }
-        animator.SetTrigger("UsouSkill");
+        //animator.SetTrigger("UsouSkill");
+        animator.SetInteger("UsingSkill", skills[id].SkillLengh);
+
         StartCoroutine(ExecuteSkill(id, skills[id].CastTime));
         //currentTarget.ReceiveDamage(skills[id].GetSkillDamage(charStats.Intelligence));
     }
@@ -88,7 +90,18 @@ public class Character : MonoBehaviour
     IEnumerator ExecuteSkill(int id, float castTime)
     {
         yield return new WaitForSeconds(castTime);
-        currentTarget.ReceiveDamage(skills[id].GetSkillDamage(charStats.Intelligence));
+        currentTarget.ReceiveSkill(charStats.Intelligence, skills[id]);
+        animator.SetInteger("UsingSkill", -1);
+    }
+
+    public void ReceiveSkill(int intel, Skill s)
+    {
+        ReceiveDamage(s.GetSkillDamage(intel));
+
+        if (s.DamagePerTick > 0)
+        {
+            StartCoroutine(ContinuousDamage(s.GetSkillDamage(intel, true), s.Ticks, s.TicksInterval));
+        }
     }
 
     public virtual void ReceiveDamage(float damage)
@@ -110,6 +123,20 @@ public class Character : MonoBehaviour
 
         life = Mathf.Clamp(life - damage, 0, charStats.MaxLife);
         //Debug.Log(life);
+    }
+
+    //public void ReceiveContinuousDamage(float damage, int ticks, int interval)
+    //{
+    //    StartCoroutine(ContinuousDamage(damage, ticks, interval));
+    //}
+
+    IEnumerator ContinuousDamage(float damage, int ticks, float interval)
+    {
+        for (int i = 0; i < ticks; i++)
+        {
+            yield return new WaitForSeconds(interval);
+            ReceiveDamage(damage);
+        }
     }
 
     public virtual void EnableDefense(bool v, bool receivedDamage = false)
