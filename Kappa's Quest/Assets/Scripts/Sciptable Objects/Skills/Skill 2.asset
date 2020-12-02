@@ -17,12 +17,12 @@ MonoBehaviour:
     de $.
 
     Cooldown: & segundos'
-  baseDamage: 500
-  intelligenceMult: 0.6
+  baseDamage: 225
+  intelligenceMult: 1.1
   damagePerTick: 0
   ticks: 0
   ticksInterval: 0.25
-  cooldown: 20
+  cooldown: 21
   castTime: 1.05
   leftover: 0.25
   skillLengh: 1

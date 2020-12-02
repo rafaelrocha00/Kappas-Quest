@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb997bb57b617642ad7cf9b4f98039f, type: 3}
   m_Name: Neko
   m_EditorClassIdentifier: 
-  vitality: 1
-  strenght: 1
-  resistance: 1
-  intelligence: 1
-  agility: 1
+  vitality: 9
+  strenght: 7
+  resistance: 5
+  intelligence: 3
+  agility: 9
   skills:
   - {fileID: 11400000, guid: 42afb8443d1689b4d8a29a6db11b5f9e, type: 2}
   - {fileID: 11400000, guid: cb68b710cb3595a4e94675c1c437593b, type: 2}
