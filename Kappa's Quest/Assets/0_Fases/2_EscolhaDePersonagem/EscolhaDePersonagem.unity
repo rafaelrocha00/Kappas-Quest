@@ -2041,6 +2041,8 @@ MonoBehaviour:
   painelAtributos: {fileID: 2104032897}
   anim: {fileID: 2104032901}
   atributos_TXT: {fileID: 1341600065}
+  atributos: {fileID: 1341600067}
+  token: {fileID: 11400000, guid: 5c198c40ea70f1d419f016f0d187a64e, type: 2}
   NewPosition: 175.94
   TipoDePersonagem: 2
 --- !u!1 &1641188091
@@ -3045,6 +3047,8 @@ MonoBehaviour:
   painelAtributos: {fileID: 815524360}
   anim: {fileID: 815524364}
   atributos_TXT: {fileID: 545061830}
+  atributos: {fileID: 545061832}
+  token: {fileID: 11400000, guid: e4cf853c3f031814d8b6fc9aa32616ef, type: 2}
   NewPosition: 175.94
   TipoDePersonagem: 0
 --- !u!1 &1792432433
@@ -3706,6 +3710,8 @@ MonoBehaviour:
   painelAtributos: {fileID: 100159196}
   anim: {fileID: 100159200}
   atributos_TXT: {fileID: 696240066}
+  atributos: {fileID: 696240068}
+  token: {fileID: 11400000, guid: b57ec4d49ee48444d969f6174c81b1ea, type: 2}
   NewPosition: 175.94
   TipoDePersonagem: 1
 --- !u!114 &2142823338

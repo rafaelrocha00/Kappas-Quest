@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CartaoSelecaoDePersonagem : MonoBehaviour
 {
@@ -11,14 +12,19 @@ public class CartaoSelecaoDePersonagem : MonoBehaviour
     [SerializeField] GameObject painelAtributos;
     [SerializeField] Animator anim;
     [SerializeField] GameObject atributos_TXT;
+    [SerializeField] TextMeshProUGUI atributos;
+    [SerializeField] CharacterToken token;
     [SerializeField] float NewPosition;
     [SerializeField] int TipoDePersonagem;
 
     private void Start()
     {
+        if(token != null)
+        AtualizarAtributos();
         toggle = GetComponent<Toggle>();
         toggle.onValueChanged.AddListener(LidarComEstados);
         if (toggle.isOn) StartCoroutine(Selecionar());
+
     }
 
     public void LidarComEstados(bool estado)
@@ -27,6 +33,25 @@ public class CartaoSelecaoDePersonagem : MonoBehaviour
             StartCoroutine(Selecionar());
         else
           StartCoroutine(Deselecionar());
+    }
+
+    public void AtualizarAtributos()
+    {
+        atributos.text = "Vitality: ";
+        atributos.text += token.Vitality.ToString();
+        atributos.text += "\n";
+        atributos.text += "Strenght: ";
+        atributos.text += token.Strenght.ToString();
+        atributos.text += "\n";
+        atributos.text += "Resistance: ";
+        atributos.text += token.Resistance.ToString();
+        atributos.text += "\n";
+        atributos.text += "Intelligence: ";
+        atributos.text += token.Intelligence.ToString();
+        atributos.text += "\n";
+        atributos.text += "Agility: ";
+        atributos.text += token.Agility.ToString();
+        atributos.text += "\n";
     }
 
     IEnumerator Selecionar()

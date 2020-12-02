@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8562f36bf54f24e806439fa6c99731, type: 3}
+  m_Name: Cicatriz
+  m_EditorClassIdentifier: 
+  nome: Cicatriz
+  icon: {fileID: -432251291309978922, guid: b33c5ec08dcb58e4d9b69adf66a564a7, type: 3}
+  preco: 20
+  descricao: Nada mais legal do que uma marca das suas batalhas.
+  id: 0
+  statsToAdd:
+    maxLife: 0
+    attackCooldown: 0
+    defenseCooldown: 0
+    attackCast: 0
+    attackLeftover: 0
+    vitality: 0
+    strength: 2
+    resistance: 4
+    intelligence: 0
+    agility: -2
+  tipo: 0
