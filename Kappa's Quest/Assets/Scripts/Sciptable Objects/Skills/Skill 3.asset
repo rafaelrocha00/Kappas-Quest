@@ -15,13 +15,13 @@ MonoBehaviour:
   skill_name: "\xC1gua"
   skill_discription: "Um golpe elemental de \xE1gua que causa # de dano com um multiplicador
     de $.\nCooldown: & segundos"
-  baseDamage: 600
-  intelligenceMult: 1.75
+  baseDamage: 90
+  intelligenceMult: 1.25
   damagePerTick: 0
   ticks: 0
   ticksInterval: 0.25
-  cooldown: 7
-  castTime: 1.05
+  cooldown: 4
+  castTime: 0.6
   leftover: 0.25
   skillLengh: 1
   skillSp: {fileID: -217828058030953396, guid: 829eed7a206e754488e1541b566b4319, type: 3}

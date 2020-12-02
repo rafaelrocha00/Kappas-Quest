@@ -106,6 +106,11 @@ public class Character : MonoBehaviour
 
     public virtual void ReceiveDamage(float damage)
     {
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
+
         if (Audio == null)
         {
             Audio = gameObject.AddComponent<AudioSource>();

@@ -64,6 +64,7 @@ public class Player : Character
         {
             animator.SetTrigger("Morreu");
             GameManager.instance.BattleController.Defeat();
+            GameManager.instance.ResetToken();
         }
     }
 
