@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 5319425544033156824}
   - component: {fileID: 1561898587048849442}
   - component: {fileID: 151273907133565620}
+  - component: {fileID: 2231070010789577568}
   m_Layer: 5
   m_Name: Propaganda
   m_TagString: Untagged
@@ -457,6 +458,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2231070010789577568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629326702513083128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e57d37d52bdc1d4a945114d479ea188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  butao: {fileID: 522180342}
+  tempo: 3
 --- !u!1 &8111195967898145679
 GameObject:
   m_ObjectHideFlags: 0

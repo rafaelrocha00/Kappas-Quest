@@ -14,7 +14,6 @@ public class ItemBotao : MonoBehaviour
 
     private void Start()
     {
-        GetComponent<Button>().onClick.AddListener(Comprar);
         guiInv = GameObject.Find("Canvas").GetComponent<GUI_Inventario>();
         id = itemRelacionado.id;
         icon.sprite = itemRelacionado.icon;

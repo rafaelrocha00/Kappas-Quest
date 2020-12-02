@@ -22,6 +22,12 @@ public class GUI_Inventario : MonoBehaviour
     [SerializeField] GameObject Kappa;
     [SerializeField] GameObject Nekko;
     [SerializeField] GameObject Wanko;
+    [SerializeField] ItemBotao prefab;
+    [SerializeField] List<Item> itensKappa;
+    [SerializeField] List<Item> itensWanko;
+    [SerializeField] List<Item> itensNeko;
+    [SerializeField] public GameObject Grid;
+
     GameObject invocado;
 
     void Start()
@@ -32,7 +38,36 @@ public class GUI_Inventario : MonoBehaviour
         Nome.text = "";
         ItemDescricao.text = "";
         precoItem.text = "";
+        SpawnarItens();
         UpdateUI();
+    }
+
+    public void SpawnarItens()
+    {
+        int tipo = C_Jogo.instancia.TipoDePersonagem;
+        if (tipo == 0)
+        {
+            SpawnarItens(itensKappa);
+        }
+        if (tipo == 1)
+        {
+            SpawnarItens(itensNeko);
+
+        }
+        if (tipo == 2)
+        {
+            SpawnarItens(itensWanko);
+
+        }
+    }
+
+    public void SpawnarItens(List<Item> itens)
+    {
+        for (int i = 0; i < itens.Count; i++)
+        {
+            ItemBotao b = Instantiate(prefab, Grid.transform);
+            b.itemRelacionado = itens[i];
+        }
     }
 
     void UpdateUI()

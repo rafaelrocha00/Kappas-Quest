@@ -15,7 +15,7 @@ MonoBehaviour:
   nome: Spada de Lato
   icon: {fileID: -432251291309978922, guid: b33c5ec08dcb58e4d9b69adf66a564a7, type: 3}
   preco: 500
-  descricao: "A espada usada pelo lendario guerriero da sua f\xE1milia."
+  descricao: "A espada usada pelo lendario guerreiros da sua f\xE1milia."
   id: 2
   statsToAdd:
     maxLife: 0
